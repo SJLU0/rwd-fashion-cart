@@ -1,18 +1,46 @@
+<!-- 範例：https://www.youtube.com/watch?v=FaNTVjATYHQ 04:00開始-->
 <!DOCTYPE html>
 <html lang="zh-TW">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--這是網頁在行動裝置（如手機、平板）上顯示效果所設計的設定 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--這是網頁在行動裝置（如手機、平板）上顯示效果所設計的設定 
         如果沒有寫這行，很多手機瀏覽器會把網頁當成是桌面版來縮小顯示（大約寬 980px） -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- 告訴 IE 瀏覽器使用最新的渲染模式（不要強制降級成 IE7 或 IE8 的模式） -->
-    <title>時尚</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 告訴 IE 瀏覽器使用最新的渲染模式（不要強制降級成 IE7 或 IE8 的模式） -->
+<title>時尚</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+<!-- font-awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- box icons -->
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <ul class="navmenu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">page</a></li>
+            <li><a href="#">docs</a></li>
+        </ul>
 
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+
+            <div class="bx bx-menu menu-icon" id="menu-icon"></div>
+        </div>
+    </header>
 </body>
 
 </html>
