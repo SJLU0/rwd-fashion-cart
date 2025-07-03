@@ -18,7 +18,7 @@
   width: 100%;
   z-index: 1000;
   display: flex;
-  background: lightyellow;
+  background: transparent;
   justify-content: space-between;
   padding: 20px 10%;
 }
@@ -41,7 +41,7 @@
   color: gray; /*#2c2c2c*/
   text-transform: capitalize; /*字首大寫*/
   padding: 10px 20px;
-  background: lavender;
+  background: lightyellow;
   font-weight: 500;
   transition: all 0.3s ease;
   font-size: 20px;
@@ -58,7 +58,7 @@
   align-items: center;
   color: gray;
   font-size: 24px;
-  background: lavender;
+  background: lightyellow;
   font-weight: 500;
 }
 
@@ -147,9 +147,9 @@
 
 /* 到底部按鈕 */
 .down-arrow {
-  position: absolute;
+  position: fixed;
   top: 90%;
-  right: 5%;
+  right: 3%;
 }
 
 .down-arrow i {
