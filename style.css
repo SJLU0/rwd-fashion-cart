@@ -44,6 +44,7 @@
   background: lavender;
   font-weight: 500;
   transition: all 0.3s ease;
+  font-size: 20px;
 }
 
 .navmenu a:hover {
@@ -123,7 +124,45 @@
 }
 
 .main-btn {
+  display: inline-block;
   font-size: 20px;
   font-weight: 500;
   text-transform: capitalize;
+  border: 2px solid darkgray;
+  color: dimgray;
+  padding: 16px;
+  margin-top: 20px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.main-btn i {
+  vertical-align: baseline;
+}
+
+.main-btn:hover {
+  background: darkgray;
+  color: white;
+}
+
+/* 到底部按鈕 */
+.down-arrow {
+  position: absolute;
+  top: 90%;
+  right: 5%;
+}
+
+.down-arrow i {
+  font-size: 32px;
+  border-radius: 50%;
+  border: 3px solid lightgray;
+  padding: 8px;
+  background: transparent;
+  color: darkgray;
+}
+
+.down-arrow i:hover {
+  background: gray;
+  color: white;
+  transition: all 0.3s ease;
 }
